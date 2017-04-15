@@ -19,5 +19,9 @@
     <exec command="phpcs --report=xml --report-file=${project.basedir}/report/phpcsresult.xml src" />
  </target>
 
+ <target name="pdepend">
+    <echo msg="executing pdepend command (yassine)"/> 
+    <exec command="phpcs --report=xml --report-file=${project.basedir}/report/phpcsresult.xml src" />
+ </target>
 
 </project>

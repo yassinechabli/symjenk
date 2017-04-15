@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2017-04-15T19:12:22" pdepend="1.1.4" ahh="0.73684210526316" andc="0" calls="143" ccn="115" ccn2="123" cloc="872" clsa="0" clsc="23" eloc="858" fanout="63" leafs="16" lloc="428" loc="2009" maxDIT="2" ncloc="1137" noc="23" nof="0" noi="0" nom="88" nop="19" roots="7">
+  <files>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\AppBundle.php" cloc="34" eloc="6" lloc="2" loc="45" ncloc="11"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Events.php" cloc="23" eloc="6" lloc="2" loc="33" ncloc="10"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\SecurityController.php" cloc="28" eloc="19" lloc="8" loc="54" ncloc="26"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\TagFixtures.php" cloc="21" eloc="20" lloc="13" loc="49" ncloc="28"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\UserFixtures.php" cloc="26" eloc="33" lloc="27" loc="68" ncloc="42"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Comment.php" cloc="70" eloc="57" lloc="31" loc="148" ncloc="78"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Post.php" cloc="108" eloc="103" lloc="58" loc="245" ncloc="137"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Tag.php" cloc="39" eloc="28" lloc="14" loc="79" ncloc="40"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\User.php" cloc="84" eloc="67" lloc="36" loc="176" ncloc="92"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CheckRequirementsSubscriber.php" cloc="49" eloc="49" lloc="29" loc="112" ncloc="63"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CommentNotificationListener.php" cloc="44" eloc="41" lloc="22" loc="99" ncloc="55"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\RedirectToPreferredLocaleListener.php" cloc="43" eloc="40" lloc="27" loc="99" ncloc="56"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\PostRepository.php" cloc="23" eloc="31" lloc="14" loc="62" ncloc="39"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\UserRepository.php" cloc="18" eloc="6" lloc="2" loc="29" ncloc="11"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Security\PostVoter.php" cloc="29" eloc="24" lloc="15" loc="62" ncloc="33"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Twig\AppExtension.php" cloc="52" eloc="43" lloc="22" loc="109" ncloc="57"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Markdown.php" cloc="28" eloc="21" lloc="11" loc="57" ncloc="29"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\MomentFormatConverter.php" cloc="32" eloc="16" lloc="4" loc="53" ncloc="21"/>
+    <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Slugger.php" cloc="20" eloc="9" lloc="3" loc="33" ncloc="13"/>
+    <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\CodeExplorerBundle.php" cloc="11" eloc="6" lloc="2" loc="22" ncloc="11"/>
+    <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\DependencyInjection\CodeExplorerExtension.php" cloc="11" eloc="14" lloc="8" loc="31" ncloc="20"/>
+    <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\EventListener\ControllerListener.php" cloc="24" eloc="18" lloc="9" loc="49" ncloc="25"/>
+    <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\Twig\SourceCodeExtension.php" cloc="43" eloc="82" lloc="43" loc="148" ncloc="105"/>
+  </files>
+  <package name="AppBundle" cr="0.15" noc="2" nof="0" noi="0" nom="0" rcr="0.21375">
+    <class name="AppBundle" ca="0" cbo="0" ce="0" cis="0" cloc="4" cr="0.15" csz="0" dit="2" eloc="0" impl="0" lloc="0" loc="7" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\AppBundle.php"/>
+    </class>
+    <class name="Events" ca="0" cbo="0" ce="0" cis="0" cloc="8" cr="0.15" csz="0" dit="0" eloc="0" impl="0" lloc="0" loc="12" ncloc="4" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Events.php"/>
+    </class>
+  </package>
+  <package name="AppBundle\Controller" cr="0.15" noc="1" nof="0" noi="0" nom="2" rcr="0.2775">
+    <class name="SecurityController" ca="0" cbo="1" ce="1" cis="2" cloc="13" cr="0.15" csz="2" dit="2" eloc="10" impl="0" lloc="3" loc="30" ncloc="17" noam="2" nocc="0" nom="2" noom="0" npm="2" rcr="0.2775" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\SecurityController.php"/>
+      <method name="loginAction" ccn="1" ccn2="1" cloc="2" eloc="7" lloc="2" loc="11" ncloc="9" npath="1"/>
+      <method name="logoutAction" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="AppBundle\DataFixtures" noc="0" nof="0" noi="0" nom="0">
+    <method name="getPostContent" ccn="1" ccn2="1" cloc="0" eloc="38" lloc="1" loc="39" ncloc="39" npath="1"/>
+    <method name="getPhrases" ccn="1" ccn2="1" cloc="0" eloc="34" lloc="1" loc="35" ncloc="35" npath="1"/>
+    <method name="getTagNames" ccn="1" ccn2="1" cloc="0" eloc="13" lloc="1" loc="14" ncloc="14" npath="1"/>
+    <method name="getRandomPostTitles" ccn="1" ccn2="1" cloc="1" eloc="7" lloc="5" loc="11" ncloc="10" npath="1"/>
+    <method name="getRandomPostSummary" ccn="2" ccn2="2" cloc="0" eloc="10" lloc="7" loc="14" ncloc="14" npath="2"/>
+    <method name="getRandomCommentContent" ccn="1" ccn2="1" cloc="0" eloc="6" lloc="4" loc="9" ncloc="9" npath="1"/>
+  </package>
+  <package name="AppBundle\DataFixtures\ORM" cr="0.15" noc="2" nof="0" noi="0" nom="2" rcr="0.405">
+    <class name="TagFixtures" ca="0" cbo="2" ce="2" cis="1" cloc="3" cr="0.15" csz="1" dit="2" eloc="9" impl="0" lloc="6" loc="20" ncloc="17" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\TagFixtures.php"/>
+      <method name="load" ccn="2" ccn2="2" cloc="0" eloc="9" lloc="6" loc="12" ncloc="12" npath="2"/>
+    </class>
+    <class name="UserFixtures" ca="0" cbo="2" ce="2" cis="1" cloc="6" cr="0.15" csz="1" dit="2" eloc="21" impl="1" lloc="19" loc="36" ncloc="30" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.34125" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\UserFixtures.php"/>
+      <method name="load" ccn="1" ccn2="1" cloc="3" eloc="21" lloc="19" loc="28" ncloc="25" npath="1"/>
+    </class>
+  </package>
+  <package name="AppBundle\Entity" cr="0.15" noc="4" nof="0" noi="0" nom="49" rcr="0.32">
+    <class name="Comment" ca="1" cbo="3" ce="3" cis="11" cloc="49" cr="0.15" csz="16" dit="0" eloc="34" impl="0" lloc="12" loc="118" ncloc="69" noam="0" nocc="0" nom="11" noom="0" npm="11" rcr="0.15" vars="5" varsi="5" varsnp="0" wmc="11" wmci="11" wmcnp="11">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Comment.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="isLegitComment" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="6" ncloc="6" npath="1"/>
+      <method name="getId" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getContent" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setContent" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getPublishedAt" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setPublishedAt" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getAuthor" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setAuthor" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getPost" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setPost" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="Post" ca="3" cbo="5" ce="5" cis="20" cloc="85" cr="0.15" csz="29" dit="0" eloc="65" impl="0" lloc="24" loc="212" ncloc="127" noam="0" nocc="0" nom="20" noom="0" npm="20" rcr="0.15" vars="9" varsi="9" varsnp="0" wmc="21" wmci="21" wmcnp="21">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Post.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="5" lloc="3" loc="6" ncloc="6" npath="1"/>
+      <method name="getId" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getTitle" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setTitle" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getSlug" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setSlug" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getContent" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setContent" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getPublishedAt" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setPublishedAt" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getAuthor" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setAuthor" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getComments" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="addComment" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="5" ncloc="5" npath="1"/>
+      <method name="removeComment" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getSummary" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setSummary" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="addTag" ccn="2" ccn2="2" cloc="0" eloc="5" lloc="2" loc="6" ncloc="6" npath="2"/>
+      <method name="removeTag" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getTags" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="Tag" ca="2" cbo="0" ce="0" cis="5" cloc="21" cr="0.15" csz="7" dit="0" eloc="15" impl="1" lloc="5" loc="53" ncloc="32" noam="0" nocc="0" nom="5" noom="0" npm="5" rcr="0.2775" vars="2" varsi="2" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Tag.php"/>
+      <method name="getId" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="jsonSerialize" ccn="1" ccn2="1" cloc="3" eloc="3" lloc="1" loc="8" ncloc="5" npath="1"/>
+      <method name="__toString" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="User" ca="4" cbo="0" ce="0" cis="13" cloc="63" cr="0.15" csz="19" dit="0" eloc="41" impl="1" lloc="14" loc="146" ncloc="83" noam="0" nocc="0" nom="13" noom="0" npm="13" rcr="0.2775" vars="6" varsi="6" varsnp="0" wmc="14" wmci="14" wmcnp="14">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\User.php"/>
+      <method name="getId" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setFullName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getFullName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getUsername" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setUsername" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getEmail" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setEmail" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getPassword" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setPassword" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getRoles" ccn="2" ccn2="2" cloc="1" eloc="7" lloc="4" loc="11" ncloc="10" npath="2"/>
+      <method name="setRoles" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getSalt" ccn="1" ccn2="1" cloc="3" eloc="2" lloc="0" loc="6" ncloc="3" npath="1"/>
+      <method name="eraseCredentials" ccn="1" ccn2="1" cloc="2" eloc="2" lloc="0" loc="5" ncloc="3" npath="1"/>
+    </class>
+  </package>
+  <package name="AppBundle\EventListener" cr="0.15" noc="3" nof="0" noi="0" nom="9" rcr="0.2775">
+    <class name="CheckRequirementsSubscriber" ca="0" cbo="9" ce="9" cis="4" cloc="33" cr="0.15" csz="6" dit="0" eloc="30" impl="1" lloc="14" loc="81" ncloc="48" noam="0" nocc="0" nom="5" noom="0" npm="4" rcr="0.2775" vars="1" varsi="1" varsnp="0" wmc="13" wmci="13" wmcnp="11">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CheckRequirementsSubscriber.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getSubscribedEvents" ccn="1" ccn2="1" cloc="3" eloc="6" lloc="1" loc="10" ncloc="7" npath="1"/>
+      <method name="handleConsoleException" ccn="3" ccn2="4" cloc="0" eloc="9" lloc="5" loc="11" ncloc="11" npath="4"/>
+      <method name="handleKernelException" ccn="2" ccn2="5" cloc="4" eloc="8" lloc="5" loc="15" ncloc="11" npath="4"/>
+      <method name="isSQLitePlatform" ccn="2" ccn2="2" cloc="0" eloc="4" lloc="2" loc="6" ncloc="6" npath="5"/>
+    </class>
+    <class name="CommentNotificationListener" ca="0" cbo="7" ce="7" cis="2" cloc="31" cr="0.15" csz="6" dit="0" eloc="26" impl="0" lloc="11" loc="75" ncloc="44" noam="0" nocc="0" nom="2" noom="0" npm="2" rcr="0.15" vars="4" varsi="4" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CommentNotificationListener.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="6" lloc="4" loc="7" ncloc="7" npath="1"/>
+      <method name="onCommentCreated" ccn="1" ccn2="1" cloc="8" eloc="20" lloc="7" loc="33" ncloc="25" npath="1"/>
+    </class>
+    <class name="RedirectToPreferredLocaleListener" ca="0" cbo="5" ce="5" cis="2" cloc="27" cr="0.15" csz="5" dit="0" eloc="27" impl="0" lloc="18" loc="73" ncloc="46" noam="0" nocc="0" nom="2" noom="0" npm="2" rcr="0.15" vars="3" varsi="3" varsnp="0" wmc="9" wmci="9" wmcnp="9">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\RedirectToPreferredLocaleListener.php"/>
+      <method name="__construct" ccn="4" ccn2="4" cloc="3" eloc="13" lloc="9" loc="21" ncloc="18" npath="20"/>
+      <method name="onKernelRequest" ccn="4" ccn2="5" cloc="3" eloc="14" lloc="9" loc="21" ncloc="18" npath="12"/>
+    </class>
+  </package>
+  <package name="AppBundle\Repository" cr="0.15" noc="2" nof="0" noi="0" nom="2" rcr="0.2775">
+    <class name="PostRepository" ca="0" cbo="6" ce="6" cis="1" cloc="5" cr="0.15" csz="2" dit="2" eloc="19" impl="0" lloc="6" loc="32" ncloc="27" noam="2" nocc="0" nom="2" noom="0" npm="1" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="1">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\PostRepository.php"/>
+      <method name="findLatest" ccn="1" ccn2="1" cloc="0" eloc="13" lloc="2" loc="15" ncloc="15" npath="1"/>
+      <method name="createPaginator" ccn="1" ccn2="1" cloc="0" eloc="6" lloc="4" loc="8" ncloc="8" npath="1"/>
+    </class>
+    <class name="UserRepository" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" eloc="0" impl="0" lloc="0" loc="3" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\UserRepository.php"/>
+    </class>
+  </package>
+  <package name="AppBundle\Security" cr="0.15" noc="1" nof="0" noi="0" nom="2" rcr="0.2775">
+    <class name="PostVoter" ca="0" cbo="3" ce="3" cis="0" cloc="13" cr="0.15" csz="2" dit="2" eloc="10" impl="0" lloc="5" loc="35" ncloc="22" noam="2" nocc="0" nom="2" noom="0" npm="0" rcr="0.2775" vars="0" varsi="0" varsnp="0" wmc="4" wmci="4" wmcnp="0">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Security\PostVoter.php"/>
+      <method name="supports" ccn="1" ccn2="2" cloc="1" eloc="3" lloc="1" loc="5" ncloc="4" npath="1"/>
+      <method name="voteOnAttribute" ccn="2" ccn2="2" cloc="4" eloc="7" lloc="4" loc="14" ncloc="10" npath="2"/>
+    </class>
+  </package>
+  <package name="AppBundle\Twig" cr="0.15" noc="1" nof="0" noi="0" nom="6" rcr="0.1925">
+    <class name="AppExtension" ca="0" cbo="4" ce="4" cis="6" cloc="31" cr="0.15" csz="8" dit="2" eloc="28" impl="0" lloc="11" loc="79" ncloc="48" noam="6" nocc="0" nom="6" noom="0" npm="6" rcr="0.21375" vars="2" varsi="2" varsnp="0" wmc="7" wmci="7" wmcnp="7">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Twig\AppExtension.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="5" ncloc="5" npath="1"/>
+      <method name="getFilters" ccn="1" ccn2="1" cloc="0" eloc="5" lloc="1" loc="6" ncloc="6" npath="1"/>
+      <method name="getFunctions" ccn="1" ccn2="1" cloc="0" eloc="5" lloc="1" loc="6" ncloc="6" npath="1"/>
+      <method name="markdownToHtml" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getLocales" ccn="2" ccn2="2" cloc="0" eloc="8" lloc="5" loc="11" ncloc="11" npath="2"/>
+      <method name="getName" ccn="1" ccn2="1" cloc="2" eloc="3" lloc="1" loc="6" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="AppBundle\Utils" cr="0.15" noc="3" nof="0" noi="0" nom="4" rcr="0.15">
+    <class name="Markdown" ca="1" cbo="3" ce="3" cis="2" cloc="12" cr="0.15" csz="4" dit="0" eloc="12" impl="0" lloc="6" loc="35" ncloc="23" noam="0" nocc="0" nom="2" noom="0" npm="2" rcr="0.15" vars="2" varsi="2" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Markdown.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="1" eloc="7" lloc="3" loc="9" ncloc="8" npath="1"/>
+      <method name="toHtml" ccn="1" ccn2="1" cloc="0" eloc="5" lloc="3" loc="7" ncloc="7" npath="1"/>
+    </class>
+    <class name="MomentFormatConverter" ca="0" cbo="0" ce="0" cis="1" cloc="19" cr="0.15" csz="2" dit="0" eloc="3" impl="0" lloc="1" loc="34" ncloc="15" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.15" vars="1" varsi="1" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\MomentFormatConverter.php"/>
+      <method name="convert" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+    <class name="Slugger" ca="0" cbo="0" ce="0" cis="1" cloc="5" cr="0.15" csz="1" dit="0" eloc="3" impl="0" lloc="1" loc="12" ncloc="7" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.15" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Slugger.php"/>
+      <method name="slugify" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+  <package name="CodeExplorerBundle" cr="0.15" noc="1" nof="0" noi="0" nom="0" rcr="0.21375">
+    <class name="CodeExplorerBundle" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" eloc="0" impl="0" lloc="0" loc="3" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\CodeExplorerBundle.php"/>
+    </class>
+  </package>
+  <package name="CodeExplorerBundle\DependencyInjection" cr="0.15" noc="1" nof="0" noi="0" nom="1" rcr="0.2775">
+    <class name="CodeExplorerExtension" ca="0" cbo="3" ce="3" cis="1" cloc="0" cr="0.15" csz="1" dit="2" eloc="4" impl="0" lloc="2" loc="9" ncloc="9" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.2775" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\DependencyInjection\CodeExplorerExtension.php"/>
+      <method name="load" ccn="1" ccn2="1" cloc="0" eloc="4" lloc="2" loc="6" ncloc="6" npath="1"/>
+    </class>
+  </package>
+  <package name="CodeExplorerBundle\EventListener" cr="0.15" noc="1" nof="0" noi="0" nom="2" rcr="0.15">
+    <class name="ControllerListener" ca="0" cbo="2" ce="2" cis="2" cloc="3" cr="0.15" csz="3" dit="0" eloc="8" impl="0" lloc="3" loc="19" ncloc="16" noam="0" nocc="0" nom="2" noom="0" npm="2" rcr="0.15" vars="1" varsi="1" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\EventListener\ControllerListener.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="registerCurrentController" ccn="2" ccn2="2" cloc="3" eloc="5" lloc="2" loc="9" ncloc="6" npath="2"/>
+    </class>
+  </package>
+  <package name="CodeExplorerBundle\Twig" cr="0.15" noc="1" nof="0" noi="0" nom="9" rcr="0.1925">
+    <class name="SourceCodeExtension" ca="1" cbo="8" ce="8" cis="5" cloc="26" cr="0.15" csz="11" dit="2" eloc="66" impl="0" lloc="31" loc="125" ncloc="99" noam="9" nocc="0" nom="9" noom="0" npm="5" rcr="0.21375" vars="2" varsi="2" varsnp="0" wmc="15" wmci="15" wmcnp="5">
+      <file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\Twig\SourceCodeExtension.php"/>
+      <method name="__construct" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="setController" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+      <method name="getFunctions" ccn="1" ccn2="1" cloc="0" eloc="5" lloc="1" loc="6" ncloc="6" npath="1"/>
+      <method name="showSourceCode" ccn="1" ccn2="1" cloc="0" eloc="6" lloc="1" loc="7" ncloc="7" npath="1"/>
+      <method name="getController" ccn="2" ccn2="2" cloc="1" eloc="14" lloc="7" loc="19" ncloc="18" npath="2"/>
+      <method name="getCallableReflector" ccn="3" ccn2="4" cloc="0" eloc="10" lloc="6" loc="14" ncloc="14" npath="6"/>
+      <method name="getTemplateSource" ccn="1" ccn2="1" cloc="4" eloc="8" lloc="2" loc="14" ncloc="10" npath="1"/>
+      <method name="unindentCode" ccn="2" ccn2="3" cloc="0" eloc="14" lloc="11" loc="18" ncloc="18" npath="2"/>
+      <method name="getName" ccn="1" ccn2="1" cloc="0" eloc="3" lloc="1" loc="4" ncloc="4" npath="1"/>
+    </class>
+  </package>
+</metrics>
