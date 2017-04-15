@@ -6,7 +6,7 @@
     <mkdir dir="${project.basedir}/report" />
   </target>
   <!-- Phpunit target -->
-  <target name="phpunit" depends="report,phpcs">
+  <target name="phpunit" depends="report,phpcs,pdepend">
     <echo msg="${project.basedir}" />
         <echo msg="Executing phpuni test  (yassine)" />
 
@@ -21,7 +21,7 @@
 
  <target name="pdepend">
     <echo msg="executing pdepend command (yassine)"/> 
-    <exec command="phpcs --report=xml --report-file=${project.basedir}/report/phpcsresult.xml src" />
+    <exec command="pdepend  --jdepend-chart=report/jdepend.svg   --summary-xml=report/pdependres.xml  --overview-pyramid=report/pyramid.svg  src/" />
  </target>
 
 </project>
