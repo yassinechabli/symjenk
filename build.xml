@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="symjenk" default="phpcs" >
+<project name="symjenk" default="phpunit" >
   <!-- report  target -->
   <target name="report">
     <delete dir="${project.basedir}/report" />
     <mkdir dir="${project.basedir}/report" />
   </target>
   <!-- Phpunit target -->
-  <target name="phpunit" depends="report">
+  <target name="phpunit" depends="report,phpcs">
     <echo msg="${project.basedir}" />
         <echo msg="Executing phpuni test  (yassine)" />
 
