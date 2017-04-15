@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpcs version="3.0.0RC4">
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\AppBundle.php" errors="0" warnings="4" fixable="0">
+ <warning line="17" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="22" column="6" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="30" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="40" column="5" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Command\AddUserCommand.php" errors="7" warnings="22" fixable="0">
+ <error line="57" column="13" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 104</error>
+ <warning line="61" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 95 characters</warning>
+ <warning line="63" column="94" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 94 characters</warning>
+ <warning line="64" column="100" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 100 characters</warning>
+ <warning line="65" column="88" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 88 characters</warning>
+ <warning line="66" column="96" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 96 characters</warning>
+ <error line="67" column="114" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 114</error>
+ <warning line="77" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="79" column="81" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="81" column="84" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="85" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <warning line="86" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="89" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="90" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="91" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <error line="96" column="185" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 185</error>
+ <warning line="111" column="82" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="117" column="85" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="146" column="94" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 94 characters</warning>
+ <warning line="154" column="94" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 94 characters</warning>
+ <error line="217" column="162" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 162</error>
+ <error line="223" column="134" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 134</error>
+ <warning line="237" column="85" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="271" column="83" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <error line="279" column="122" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 122</error>
+ <error line="291" column="116" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 116</error>
+ <warning line="303" column="1" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 89 characters</warning>
+ <warning line="305" column="1" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="310" column="1" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 89 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Command\DeleteUserCommand.php" errors="2" warnings="5" fixable="0">
+ <warning line="56" column="98" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 98 characters</warning>
+ <warning line="70" column="81" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="72" column="84" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="96" column="85" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="120" column="98" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 98 characters</warning>
+ <error line="132" column="148" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 148</error>
+ <error line="148" column="111" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 111</error>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Command\ListUsersCommand.php" errors="5" warnings="13" fixable="0">
+ <warning line="26" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <error line="50" column="13" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 104</error>
+ <warning line="54" column="1" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 90 characters</warning>
+ <warning line="66" column="1" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="70" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 95 characters</warning>
+ <error line="72" column="114" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 114</error>
+ <error line="73" column="126" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 126</error>
+ <warning line="78" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="81" column="81" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="83" column="84" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="93" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <error line="94" column="109" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 109</error>
+ <warning line="96" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 90 characters</warning>
+ <error line="98" column="133" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 133</error>
+ <warning line="101" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="105" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <warning line="139" column="84" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="140" column="92" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 92 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\Admin\BlogController.php" errors="1" warnings="8" fixable="0">
+ <error line="58" column="127" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 127</error>
+ <warning line="95" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="124" column="99" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 99 characters</warning>
+ <warning line="139" column="100" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 100 characters</warning>
+ <warning line="153" column="87" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 87 characters</warning>
+ <warning line="170" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="174" column="82" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="180" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="181" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\BlogController.php" errors="2" warnings="18" fixable="0">
+ <warning line="40" column="27" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <error line="41" column="31" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 122</error>
+ <warning line="45" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="51" column="85" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="53" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="56" column="82" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="70" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <warning line="71" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="74" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <error line="77" column="102" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 102</error>
+ <warning line="108" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="109" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 87 characters</warning>
+ <warning line="110" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="115" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="116" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="117" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="118" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="119" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="120" column="86" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="122" column="85" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\SecurityController.php" errors="0" warnings="1" fixable="0">
+ <warning line="45" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\PostFixtures.php" errors="1" warnings="6" fixable="0">
+ <error line="35" column="82" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 104</error>
+ <warning line="50" column="89" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 89 characters</warning>
+ <warning line="52" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="53" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="67" column="86" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="82" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="83" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\UserFixtures.php" errors="0" warnings="3" fixable="0">
+ <warning line="48" column="82" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="51" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 88 characters</warning>
+ <warning line="60" column="81" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Comment.php" errors="0" warnings="2" fixable="0">
+ <warning line="22" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="24" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 92 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Post.php" errors="0" warnings="2" fixable="0">
+ <warning line="24" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="26" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 92 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Tag.php" errors="1" warnings="3" fixable="0">
+ <warning line="22" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <error line="67" column="9" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 104</error>
+ <warning line="68" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 89 characters</warning>
+ <warning line="69" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 97 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\User.php" errors="1" warnings="2" fixable="0">
+ <warning line="22" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="24" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 92 characters</warning>
+ <error line="160" column="9" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 116</error>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CheckRequirementsSubscriber.php" errors="4" warnings="7" fixable="0">
+ <warning line="52" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 87 characters</warning>
+ <warning line="61" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <error line="68" column="131" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 131</error>
+ <error line="73" column="184" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 184</error>
+ <warning line="87" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="91" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <error line="92" column="118" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 118</error>
+ <warning line="95" column="94" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 94 characters</warning>
+ <error line="96" column="180" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 180</error>
+ <warning line="107" column="89" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 89 characters</warning>
+ <warning line="109" column="85" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CommentNotificationListener.php" errors="1" warnings="4" fixable="0">
+ <error line="54" column="133" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 133</error>
+ <warning line="77" column="86" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="92" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 87 characters</warning>
+ <warning line="93" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 90 characters</warning>
+ <warning line="94" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 96 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\RedirectToPreferredLocaleListener.php" errors="3" warnings="5" fixable="0">
+ <warning line="49" column="15" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <error line="52" column="101" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 101</error>
+ <warning line="58" column="100" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 100 characters</warning>
+ <error line="64" column="139" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 139</error>
+ <warning line="85" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="86" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 93 characters</warning>
+ <warning line="87" column="97" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 97 characters</warning>
+ <error line="94" column="123" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 123</error>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Form\CommentType.php" errors="0" warnings="3" fixable="0">
+ <warning line="20" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="36" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="38" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Form\DataTransformer\TagArrayToStringTransformer.php" errors="2" warnings="5" fixable="0">
+ <warning line="19" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 93 characters</warning>
+ <warning line="20" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 91 characters</warning>
+ <error line="43" column="9" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 102</error>
+ <warning line="58" column="86" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <warning line="70" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 97 characters</warning>
+ <error line="71" column="13" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 101</error>
+ <warning line="74" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Form\PostType.php" errors="0" warnings="2" fixable="0">
+ <warning line="39" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="41" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Form\Type\DateTimePickerType.php" errors="1" warnings="2" fixable="0">
+ <warning line="25" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="41" column="82" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <error line="43" column="102" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 102</error>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Form\Type\TagsInputType.php" errors="1" warnings="6" fixable="0">
+ <warning line="28" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="47" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="48" column="13" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 92 characters</warning>
+ <error line="49" column="13" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 101</error>
+ <warning line="52" column="88" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 88 characters</warning>
+ <warning line="59" column="82" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="61" column="83" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\PostRepository.php" errors="0" warnings="1" fixable="0">
+ <warning line="24" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\UserRepository.php" errors="0" warnings="3" fixable="0">
+ <warning line="17" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <warning line="18" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="21" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Security\PostVoter.php" errors="1" warnings="3" fixable="0">
+ <warning line="29" column="5" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="30" column="5" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 84 characters</warning>
+ <warning line="40" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <error line="41" column="104" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 104</error>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Twig\AppExtension.php" errors="1" warnings="4" fixable="0">
+ <warning line="23" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="54" column="98" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 98 characters</warning>
+ <error line="93" column="125" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 125</error>
+ <warning line="104" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 85 characters</warning>
+ <warning line="105" column="9" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 89 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Markdown.php" errors="0" warnings="2" fixable="0">
+ <warning line="16" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <warning line="17" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 91 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\MomentFormatConverter.php" errors="0" warnings="1" fixable="0">
+ <warning line="22" column="8" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 99 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Slugger.php" errors="0" warnings="1" fixable="0">
+ <warning line="30" column="93" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 93 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\DependencyInjection\CodeExplorerExtension.php" errors="0" warnings="1" fixable="0">
+ <warning line="26" column="98" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 98 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\EventListener\ControllerListener.php" errors="0" warnings="4" fixable="0">
+ <warning line="21" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 81 characters</warning>
+ <warning line="23" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <warning line="24" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 83 characters</warning>
+ <warning line="25" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 93 characters</warning>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\Twig\SourceCodeExtension.php" errors="3" warnings="3" fixable="0">
+ <warning line="18" column="4" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 82 characters</warning>
+ <error line="44" column="138" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 138</error>
+ <warning line="52" column="86" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 86 characters</warning>
+ <error line="66" column="128" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 128</error>
+ <warning line="67" column="88" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line longer than 80 characters; contains 88 characters</warning>
+ <error line="79" column="8" source="Generic.Files.LineLength.MaxExceeded" severity="5" fixable="0">Line contains 100 chars, which is longer than the max limit of 105</error>
+</file>
+</phpcs>
+

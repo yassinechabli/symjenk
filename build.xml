@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="symjenk" default="phpunit" >
+<project name="symjenk" default="phpcs" >
   <!-- report  target -->
   <target name="report">
     <delete dir="${project.basedir}/report" />
@@ -8,7 +8,16 @@
   <!-- Phpunit target -->
   <target name="phpunit" depends="report">
     <echo msg="${project.basedir}" />
+        <echo msg="Executing phpuni test  (yassine)" />
+
     <exec command="phpunit --log-junit ${project.basedir}/report/report.xml" />
   </target>
+
+
+ <target name="phpcs">
+    <echo msg="Finding coding standard violations... (yassine)"/> 
+    <exec command="phpcs --report=xml --report-file=${project.basedir}/report/phpcsresult.xml src" />
+ </target>
+
 
 </project>
