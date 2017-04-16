@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="AppBundle">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\AppBundle.php">AppBundle</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Events.php">Events</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Symfony\Component\HttpKernel\Bundle</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AppBundle\Controller</Package>
+      </UsedBy>
+    </Package>
+    <Package name="AppBundle\Command">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>7</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Command\AddUserCommand.php">AddUserCommand</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Command\DeleteUserCommand.php">DeleteUserCommand</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Command\ListUsersCommand.php">ListUsersCommand</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>AppBundle\Entity</Package>
+        <Package>Symfony\Bundle\FrameworkBundle\Command</Package>
+        <Package>Symfony\Component\Console\Helper</Package>
+        <Package>Symfony\Component\Console\Input</Package>
+        <Package>Symfony\Component\Console\Output</Package>
+        <Package>Symfony\Component\Console\Question</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Controller\Admin">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\Admin\BlogController.php">BlogController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>AppBundle\Entity</Package>
+        <Package>AppBundle\Form</Package>
+        <Package>Symfony\Bundle\FrameworkBundle\Controller</Package>
+        <Package>Symfony\Component\Form\Extension\Core\Type</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Controller">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>7</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\BlogController.php">BlogController</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\SecurityController.php">SecurityController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>AppBundle</Package>
+        <Package>AppBundle\Entity</Package>
+        <Package>AppBundle\Form</Package>
+        <Package>Symfony\Bundle\FrameworkBundle\Controller</Package>
+        <Package>Symfony\Component\EventDispatcher</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\DataFixtures\ORM">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\PostFixtures.php">PostFixtures</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\TagFixtures.php">TagFixtures</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\UserFixtures.php">UserFixtures</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>AppBundle\Entity</Package>
+        <Package>Doctrine\Common\DataFixtures</Package>
+        <Package>Doctrine\Common\Persistence</Package>
+        <Package>Symfony\Component\DependencyInjection</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Entity">
+      <Stats>
+        <TotalClasses>4</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>9</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>0.25</I>
+        <D>0.75</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Comment.php">Comment</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Post.php">Post</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\Tag.php">Tag</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Entity\User.php">User</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Doctrine\Common\Collections</Package>
+        <Package>Symfony\Component\Security\Core\User</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AppBundle\Command</Package>
+        <Package>AppBundle\Controller</Package>
+        <Package>AppBundle\Controller\Admin</Package>
+        <Package>AppBundle\DataFixtures\ORM</Package>
+        <Package>AppBundle\Form</Package>
+        <Package>AppBundle\Form\DataTransformer</Package>
+        <Package>AppBundle\Form\Type</Package>
+        <Package>AppBundle\Repository</Package>
+        <Package>AppBundle\Security</Package>
+      </UsedBy>
+    </Package>
+    <Package name="AppBundle\EventListener">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>12</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CheckRequirementsSubscriber.php">CheckRequirementsSubscriber</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CommentNotificationListener.php">CommentNotificationListener</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\RedirectToPreferredLocaleListener.php">RedirectToPreferredLocaleListener</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Doctrine\DBAL\Exception</Package>
+        <Package>Doctrine\ORM</Package>
+        <Package>Symfony\Component\Console</Package>
+        <Package>Symfony\Component\Console\Event</Package>
+        <Package>Symfony\Component\Console\Style</Package>
+        <Package>Symfony\Component\EventDispatcher</Package>
+        <Package>Symfony\Component\HttpFoundation</Package>
+        <Package>Symfony\Component\HttpKernel</Package>
+        <Package>Symfony\Component\HttpKernel\Event</Package>
+        <Package>Symfony\Component\Routing\Generator</Package>
+        <Package>Symfony\Component\Translation</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Form">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>0.71428571428571</I>
+        <D>0.28571428571429</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Form\CommentType.php">CommentType</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Form\PostType.php">PostType</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>AppBundle\Entity</Package>
+        <Package>AppBundle\Form\Type</Package>
+        <Package>Symfony\Component\Form</Package>
+        <Package>Symfony\Component\Form\Extension\Core\Type</Package>
+        <Package>Symfony\Component\OptionsResolver</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AppBundle\Controller</Package>
+        <Package>AppBundle\Controller\Admin</Package>
+      </UsedBy>
+    </Package>
+    <Package name="AppBundle\Form\DataTransformer">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>0.75</I>
+        <D>0.25</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Form\DataTransformer\TagArrayToStringTransformer.php">TagArrayToStringTransformer</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>AppBundle\Entity</Package>
+        <Package>Doctrine\Common\Persistence</Package>
+        <Package>Symfony\Component\Form</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AppBundle\Form\Type</Package>
+      </UsedBy>
+    </Package>
+    <Package name="AppBundle\Form\Type">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>9</Ce>
+        <A>0</A>
+        <I>0.9</I>
+        <D>0.1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Form\Type\DateTimePickerType.php">DateTimePickerType</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Form\Type\TagsInputType.php">TagsInputType</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>AppBundle\Entity</Package>
+        <Package>AppBundle\Form\DataTransformer</Package>
+        <Package>AppBundle\Utils</Package>
+        <Package>Doctrine\Common\Persistence</Package>
+        <Package>Symfony\Bridge\Doctrine\Form\DataTransformer</Package>
+        <Package>Symfony\Component\Form</Package>
+        <Package>Symfony\Component\Form\Extension\Core\Type</Package>
+        <Package>Symfony\Component\OptionsResolver</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AppBundle\Form</Package>
+      </UsedBy>
+    </Package>
+    <Package name="AppBundle\Repository">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\PostRepository.php">PostRepository</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Repository\UserRepository.php">UserRepository</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>AppBundle\Entity</Package>
+        <Package>Doctrine\ORM</Package>
+        <Package>Pagerfanta</Package>
+        <Package>Pagerfanta\Adapter</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Security">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Security\PostVoter.php">PostVoter</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>AppBundle\Entity</Package>
+        <Package>Symfony\Component\Security\Core\Authentication\Token</Package>
+        <Package>Symfony\Component\Security\Core\Authorization\Voter</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Twig">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Twig\AppExtension.php">AppExtension</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>AppBundle\Utils</Package>
+        <Package>Symfony\Component\Intl</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AppBundle\Utils">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.33333333333333</I>
+        <D>0.66666666666667</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Markdown.php">Markdown</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\MomentFormatConverter.php">MomentFormatConverter</Class>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\AppBundle\Utils\Slugger.php">Slugger</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AppBundle\Form\Type</Package>
+        <Package>AppBundle\Twig</Package>
+      </UsedBy>
+    </Package>
+    <Package name="CodeExplorerBundle">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\CodeExplorerBundle.php">CodeExplorerBundle</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Symfony\Component\HttpKernel\Bundle</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="CodeExplorerBundle\DependencyInjection">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>4</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\DependencyInjection\CodeExplorerExtension.php">CodeExplorerExtension</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Symfony\Component\Config</Package>
+        <Package>Symfony\Component\DependencyInjection</Package>
+        <Package>Symfony\Component\DependencyInjection\Loader</Package>
+        <Package>Symfony\Component\HttpKernel\DependencyInjection</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="CodeExplorerBundle\EventListener">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\EventListener\ControllerListener.php">ControllerListener</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>CodeExplorerBundle\Twig</Package>
+        <Package>Symfony\Component\HttpKernel\Event</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="CodeExplorerBundle\Twig">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\Twig\SourceCodeExtension.php">SourceCodeExtension</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>CodeExplorerBundle\EventListener</Package>
+      </UsedBy>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.8.1">
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Command\AddUserCommand.php">
+ <error line="96" column="185" severity="warning" message="Line exceeds 120 characters; contains 185 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="217" column="162" severity="warning" message="Line exceeds 120 characters; contains 162 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="223" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="279" column="122" severity="warning" message="Line exceeds 120 characters; contains 122 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Command\DeleteUserCommand.php">
+ <error line="132" column="148" severity="warning" message="Line exceeds 120 characters; contains 148 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Command\ListUsersCommand.php">
+ <error line="73" column="126" severity="warning" message="Line exceeds 120 characters; contains 126 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="98" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\Admin\BlogController.php">
+ <error line="58" column="127" severity="warning" message="Line exceeds 120 characters; contains 127 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\BlogController.php">
+ <error line="41" column="31" severity="warning" message="Line exceeds 120 characters; contains 122 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="91" column="8" severity="warning" message="Line exceeds 120 characters; contains 123 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Controller\SecurityController.php">
+ <error line="77" column="1" severity="error" message="The closing brace for the class must go on the next line after the body" source="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\DataFixtures\ORM\UserFixtures.php">
+ <error line="53" column="9" severity="warning" message="Line exceeds 120 characters; contains 121 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CheckRequirementsSubscriber.php">
+ <error line="68" column="131" severity="warning" message="Line exceeds 120 characters; contains 131 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="73" column="184" severity="warning" message="Line exceeds 120 characters; contains 184 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="96" column="180" severity="warning" message="Line exceeds 120 characters; contains 180 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\CommentNotificationListener.php">
+ <error line="54" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\EventListener\RedirectToPreferredLocaleListener.php">
+ <error line="64" column="139" severity="warning" message="Line exceeds 120 characters; contains 139 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="94" column="123" severity="warning" message="Line exceeds 120 characters; contains 123 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\AppBundle\Twig\AppExtension.php">
+ <error line="93" column="125" severity="warning" message="Line exceeds 120 characters; contains 125 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\src\CodeExplorerBundle\Twig\SourceCodeExtension.php">
+ <error line="44" column="138" severity="warning" message="Line exceeds 120 characters; contains 138 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="66" column="128" severity="warning" message="Line exceeds 120 characters; contains 128 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\xampp\htdocs\symjenk\tests\AppBundle\Command\AddUserCommandTest.php">
+ <error line="72" column="125" severity="warning" message="Line exceeds 120 characters; contains 125 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="81" column="15" severity="warning" message="Line exceeds 120 characters; contains 126 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+</checkstyle>
+
