@@ -38,7 +38,7 @@
         "dama/doctrine-test-bundle": "^1.0",
         "friendsofphp/php-cs-fixer": "^2.0",
         "pdepend/pdepend": "^2.5",
-        "phing/phing": "*",
+        "phing/phing": "^2.16",
         "phploc/phploc": "2.0.0",
         "phpmd/phpmd": "^2.6",
         "phpunit/phpunit": "^4.8",

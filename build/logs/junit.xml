@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="36" assertions="61" failures="0" errors="0" time="14.623411">
+    <testsuite name="Tests\Command\AddUserCommandTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Command\AddUserCommandTest.php" tests="2" assertions="10" failures="0" errors="0" time="2.787621">
+      <testsuite name="Tests\Command\AddUserCommandTest::testCreateUserNonInteractive" tests="2" assertions="10" failures="0" errors="0" time="2.787621">
+        <testcase name="testCreateUserNonInteractive with data set #0" assertions="5" time="1.495724"/>
+        <testcase name="testCreateUserNonInteractive with data set #1" assertions="5" time="1.291897"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Tests\AppBundle\Controller\Admin\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\Admin\BlogControllerTest.php" tests="9" assertions="15" failures="0" errors="0" time="9.721802">
+      <testsuite name="Tests\AppBundle\Controller\Admin\BlogControllerTest::testAccessDeniedForRegularUsers" tests="4" assertions="4" failures="0" errors="0" time="4.246682">
+        <testcase name="testAccessDeniedForRegularUsers with data set #0" assertions="1" time="1.261886"/>
+        <testcase name="testAccessDeniedForRegularUsers with data set #1" assertions="1" time="0.989377"/>
+        <testcase name="testAccessDeniedForRegularUsers with data set #2" assertions="1" time="0.979398"/>
+        <testcase name="testAccessDeniedForRegularUsers with data set #3" assertions="1" time="1.016021"/>
+      </testsuite>
+      <testcase name="testAdminBackendHomePage" class="Tests\AppBundle\Controller\Admin\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\Admin\BlogControllerTest.php" line="60" assertions="2" time="0.940073"/>
+      <testcase name="testAdminNewPost" class="Tests\AppBundle\Controller\Admin\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\Admin\BlogControllerTest.php" line="83" assertions="4" time="1.402005"/>
+      <testcase name="testAdminShowPost" class="Tests\AppBundle\Controller\Admin\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\Admin\BlogControllerTest.php" line="111" assertions="1" time="0.890585"/>
+      <testcase name="testAdminEditPost" class="Tests\AppBundle\Controller\Admin\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\Admin\BlogControllerTest.php" line="128" assertions="2" time="1.209277"/>
+      <testcase name="testAdminDeletePost" class="Tests\AppBundle\Controller\Admin\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\Admin\BlogControllerTest.php" line="155" assertions="2" time="1.033180"/>
+    </testsuite>
+    <testsuite name="Tests\AppBundle\Controller\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\BlogControllerTest.php" tests="3" assertions="6" failures="0" errors="0" time="1.271897">
+      <testcase name="testIndex" class="Tests\AppBundle\Controller\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\BlogControllerTest.php" line="33" assertions="1" time="0.190773"/>
+      <testcase name="testRss" class="Tests\AppBundle\Controller\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\BlogControllerTest.php" line="45" assertions="2" time="0.098398"/>
+      <testcase name="testNewComment" class="Tests\AppBundle\Controller\BlogControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\BlogControllerTest.php" line="68" assertions="3" time="0.982726"/>
+    </testsuite>
+    <testsuite name="Tests\AppBundle\Controller\DefaultControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\DefaultControllerTest.php" tests="8" assertions="12" failures="0" errors="0" time="0.815434">
+      <testsuite name="Tests\AppBundle\Controller\DefaultControllerTest::testPublicUrls" tests="3" assertions="3" failures="0" errors="0" time="0.362073">
+        <testcase name="testPublicUrls with data set #0" assertions="1" time="0.112519"/>
+        <testcase name="testPublicUrls with data set #1" assertions="1" time="0.129017"/>
+        <testcase name="testPublicUrls with data set #2" assertions="1" time="0.120537"/>
+      </testsuite>
+      <testcase name="testPublicBlogPost" class="Tests\AppBundle\Controller\DefaultControllerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Controller\DefaultControllerTest.php" line="56" assertions="1" time="0.125862"/>
+      <testsuite name="Tests\AppBundle\Controller\DefaultControllerTest::testSecureUrls" tests="4" assertions="8" failures="0" errors="0" time="0.327499">
+        <testcase name="testSecureUrls with data set #0" assertions="2" time="0.086005"/>
+        <testcase name="testSecureUrls with data set #1" assertions="2" time="0.088711"/>
+        <testcase name="testSecureUrls with data set #2" assertions="2" time="0.078590"/>
+        <testcase name="testSecureUrls with data set #3" assertions="2" time="0.074193"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" tests="6" assertions="10" failures="0" errors="0" time="0.026183">
+      <testcase name="testCreateTheRightAmountOfTags" class="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" line="29" assertions="2" time="0.025420"/>
+      <testcase name="testCreateTheRightAmountOfTagsWithTooManyCommas" class="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" line="41" assertions="2" time="0.000238"/>
+      <testcase name="testTrimNames" class="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" line="52" assertions="1" time="0.000125"/>
+      <testcase name="testDuplicateNames" class="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" line="62" assertions="1" time="0.000165"/>
+      <testcase name="testUsesAlreadyDefinedTags" class="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" line="72" assertions="3" time="0.000135"/>
+      <testcase name="testTransform" class="Tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Form\DataTransformer\TagArrayToStringTransformerTest.php" line="89" assertions="1" time="0.000100"/>
+    </testsuite>
+    <testsuite name="Tests\AppBundle\Utils\SluggerTest" file="C:\xampp\htdocs\symjenk\tests\AppBundle\Utils\SluggerTest.php" tests="8" assertions="8" failures="0" errors="0" time="0.000474">
+      <testsuite name="Tests\AppBundle\Utils\SluggerTest::testSlugify" tests="8" assertions="8" failures="0" errors="0" time="0.000474">
+        <testcase name="testSlugify with data set #0" assertions="1" time="0.000104"/>
+        <testcase name="testSlugify with data set #1" assertions="1" time="0.000055"/>
+        <testcase name="testSlugify with data set #2" assertions="1" time="0.000053"/>
+        <testcase name="testSlugify with data set #3" assertions="1" time="0.000050"/>
+        <testcase name="testSlugify with data set #4" assertions="1" time="0.000048"/>
+        <testcase name="testSlugify with data set #5" assertions="1" time="0.000064"/>
+        <testcase name="testSlugify with data set #6" assertions="1" time="0.000049"/>
+        <testcase name="testSlugify with data set #7" assertions="1" time="0.000051"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
