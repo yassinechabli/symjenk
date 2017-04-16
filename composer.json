@@ -35,12 +35,18 @@
         "white-october/pagerfanta-bundle"      : "^1.0"
     },
     "require-dev": {
-	"phing/phing"                          : "*",
-        "dama/doctrine-test-bundle"            : "^1.0",
-        "friendsofphp/php-cs-fixer"            : "^2.0",
-        "phpunit/phpunit"                      : "^4.8 || ^5.0",
-        "sensio/generator-bundle"              : "^3.0",
-        "symfony/phpunit-bridge"               : "^3.0"
+        "dama/doctrine-test-bundle": "^1.0",
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "pdepend/pdepend": "^2.5",
+        "phing/phing": "*",
+        "phploc/phploc": "2.0.0",
+        "phpmd/phpmd": "^2.6",
+        "phpunit/phpunit": "^4.8",
+        "sebastian/phpcpd": "^2.0",
+        "sensio/generator-bundle": "^3.0",
+        "squizlabs/php_codesniffer": "^2.8",
+        "symfony/phpunit-bridge": "^3.0",
+        "theseer/phpdox": "^0.9.0"
     },
     "scripts": {
         "symfony-scripts": [

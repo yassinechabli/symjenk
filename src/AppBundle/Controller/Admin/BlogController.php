@@ -189,4 +189,27 @@ class BlogController extends Controller
 
         return $this->redirectToRoute('admin_post_index');
     }
+
+
+     /**
+     * This controller is called directly via the render() function in the
+     * blog/post_show.html.twig template. That's why it's not needed to define
+     * a route name for it.
+     *
+     * The "id" of the Post is passed in and then turned into a Post object
+     * automatically by the ParamConverter.
+     *
+     * @param Post $post
+     *
+     * @return Response
+     */
+    public function commentFormAction(Post $post)
+    {
+        $form = $this->createForm(CommentType::class);
+
+        return $this->render('blog/_comment_form.html.twig', [
+            'post' => $post,
+            'form' => $form->createView(),
+        ]);
+    }
 }
