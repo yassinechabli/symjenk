@@ -176,7 +176,9 @@
 		<exec executable="${phpunit}" failonerror="true" taskname="phpunit">
 		<arg value="--configuration"/>
 		<arg path="${project.basedir}/phpunit.xml"/>
-		<arg value="--no-coverage"/>
+		<arg value="--coverage-clover"/>
+		<arg path="${project.basedir}/build/log/clover.xml"/>
+
 		</exec>
 		<property name="phpunit.done" value="true"/>
 	</target>
