@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1492381014">
-  <project timestamp="1492381014">
+<coverage generated="1492475925">
+  <project timestamp="1492475925">
     <package name="AppBundle">
       <file name="C:\xampp\htdocs\symjenk\src/AppBundle/AppBundle.php">
         <class name="AppBundle" namespace="AppBundle">
@@ -421,7 +421,7 @@
     <package name="AppBundle\DataFixtures">
       <file name="C:\xampp\htdocs\symjenk\src/AppBundle/DataFixtures/FixturesTrait.php">
         <class name="FixturesTrait" namespace="AppBundle\DataFixtures">
-          <metrics methods="6" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="59" coveredstatements="44" elements="65" coveredelements="48"/>
+          <metrics methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="59" coveredstatements="42" elements="65" coveredelements="45"/>
         </class>
         <line num="19" type="method" name="getPostContent" crap="1" count="1"/>
         <line num="56" type="stmt" count="1"/>
@@ -474,21 +474,21 @@
         <line num="116" type="stmt" count="0"/>
         <line num="117" type="stmt" count="0"/>
         <line num="119" type="stmt" count="0"/>
-        <line num="122" type="method" name="getRandomPostSummary" crap="2" count="1"/>
+        <line num="122" type="method" name="getRandomPostSummary" crap="2.06" count="1"/>
         <line num="124" type="stmt" count="1"/>
         <line num="126" type="stmt" count="1"/>
         <line num="127" type="stmt" count="1"/>
         <line num="128" type="stmt" count="1"/>
         <line num="130" type="stmt" count="1"/>
-        <line num="131" type="stmt" count="1"/>
-        <line num="132" type="stmt" count="1"/>
+        <line num="131" type="stmt" count="0"/>
+        <line num="132" type="stmt" count="0"/>
         <line num="134" type="stmt" count="1"/>
         <line num="137" type="method" name="getRandomCommentContent" crap="1" count="1"/>
         <line num="139" type="stmt" count="1"/>
         <line num="141" type="stmt" count="1"/>
         <line num="142" type="stmt" count="1"/>
         <line num="144" type="stmt" count="1"/>
-        <metrics loc="146" ncloc="133" classes="1" methods="6" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="59" coveredstatements="44" elements="65" coveredelements="48"/>
+        <metrics loc="146" ncloc="133" classes="1" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="59" coveredstatements="42" elements="65" coveredelements="45"/>
       </file>
     </package>
     <package name="AppBundle\DataFixtures\ORM">
@@ -1156,6 +1156,6 @@
         <metrics loc="147" ncloc="98" classes="1" methods="10" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="35" elements="52" coveredelements="42"/>
       </file>
     </package>
-    <metrics files="35" loc="3458" ncloc="1881" classes="35" methods="144" coveredmethods="95" conditionals="0" coveredconditionals="0" statements="763" coveredstatements="423" elements="907" coveredelements="518"/>
+    <metrics files="35" loc="3458" ncloc="1881" classes="35" methods="144" coveredmethods="94" conditionals="0" coveredconditionals="0" statements="763" coveredstatements="421" elements="907" coveredelements="515"/>
   </project>
 </coverage>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2017-04-17 00:16:54</timestamp>
+  <timestamp>2017-04-18 02:38:45</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>144</methodCount>
     <crapMethodCount>2</crapMethodCount>
     <crapLoad>15</crapLoad>
-    <totalCrap>409.86</totalCrap>
+    <totalCrap>409.92</totalCrap>
     <crapMethodPercent>1.39</crapMethodPercent>
   </stats>
   <methods>
@@ -424,9 +424,9 @@
       <methodName>getRandomPostSummary</methodName>
       <methodSignature>getRandomPostSummary($maxLength = 255)</methodSignature>
       <fullMethod>getRandomPostSummary($maxLength = 255)</fullMethod>
-      <crap>2</crap>
+      <crap>2.06</crap>
       <complexity>2</complexity>
-      <coverage>100</coverage>
+      <coverage>75</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>

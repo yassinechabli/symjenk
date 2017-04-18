@@ -7,8 +7,8 @@
 	 <property name="phpmd"   value="${project.basedir}/vendor/bin/phpmd"/>
 	 <property name="phpunit" value="${project.basedir}/vendor/bin/phpunit"/> 
 	
-	<target name="full-build" depends="prepare,static-analysis,phpunit" description="Performs static analysis, runs the tests, and generates project documentation"/>
-	<target name="full-build-parallel" depends="prepare,static-analysis-parallel,phpunit" description="Performs static analysis (executing the tools in parallel), runs the tests, and generates project documentation"/>
+	<target name="full-build" depends="prepare,static-analysis,phpunit,deploy" description="Performs static analysis, runs the tests, and generates project documentation"/>
+	<target name="full-build-parallel" depends="prepare,static-analysis-parallel,phpunit,deploy" description="Performs static analysis (executing the tools in parallel), runs the tests, and generates project documentation"/>
 	<target name="quick-build" depends="prepare,lint,phpunit-no-coverage" description="Performs a lint check and runs the tests (without generating code coverage reports)"/>
 	<target name="static-analysis" depends="lint,phploc-ci,pdepend,phpmd-ci,phpcs-ci,phpcpd-ci" description="Performs static analysis"/>
 	<!--
@@ -189,4 +189,28 @@
 	</target>
 
 	-->
+	<target name="deploy">
+	<echo>property:deploiment de l'application</echo>
+   <if>
+   <equals arg1="${phpunit.done}" arg2="1" />
+  <then>
+    <echo msg="Uploading to FTP server for release..." />
+   <ftpdeploy 
+    host="localhost" 
+    port="21" 
+    username="sino" 
+    password="sino"
+    dir="." 
+    >
+    <fileset dir=".">
+     <include name="**/*" />
+    </fileset>
+   </ftpdeploy> 
+  </then>
+  <else>
+    <echo message="whooowa ! error ; sorry , the project cannot be deployed " />
+  </else>
+ </if>
+ </target>
+
 </project>
